@@ -1,3 +1,4 @@
+/*
 * {
     margin: 0;
     padding: 0;
@@ -52,7 +53,9 @@ button{
 ul{
     display: flex;
     flex-wrap: wrap; /* quebra de linha no limite da tela*/
-}
+/*}*/
+
+/*
 
 ul li{
     max-width: 25%;
@@ -85,3 +88,109 @@ ul li img{
 ul li:hover .overlay-imagem-link{
 opacity: 1;
 }
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 16px 0;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#header1 {
+    background-color: #5daf44;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 50px;
+}
+
+#header2 {
+    background-color: #c4ccbb;
+}
+
+#header2 button{
+    background-color: #fff;
+    width: 172px;
+    height: 35px;
+    border: none;
+    margin:3px;
+    cursor: pointer;
+}
+
+#header2 button:hover{
+    background-color: #ececec;
+    border: 2px solid rgba(0, 0, 0, 0.568);
+}
+
+#header2 #cancelar:hover{
+    background-color: #eecece;
+}
+
+#form-nova-tarefa {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 32px;
+    background-color: rgb(231, 233, 227);
+}
+
+#form-nova-tarefa #adicionar{
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: #fff;
+}
+
+#form-nova-tarefa #adicionar:hover{
+    background-color: rgba(190, 226, 195, 0.568);
+    border: 2px solid rgba(20, 207, 45, 0.568);
+    cursor: pointer;
+}
+
+#form-nova-tarefa input{
+    margin: 2px;
+    height: 30px;
+    border: none;
+}
+
+#form-nova-tarefa #input-tarefa{
+    width: 540px; 
+}
+
+#lista-tarefas{
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#lista-tarefas ul li{
+    display: inline;
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+    color: #3e7e3c;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#lista-tarefas button{
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    background-color: #5daf44;
+    font-weight: bolder;
+    color: white;
+    font-size: 17px;
+    margin:0px 20px 0px ;
+}
+

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./main.css">
 
 </head>
-
+<!--
 <body>
     <header>
         <h1>Galeria de Fotos</h1>
@@ -53,4 +53,32 @@
     <script src="./main.js"></script>
 </body>
 
+</html>
+-->
+<body>
+    <header id="header1">
+        <h1>Lista de Tarefas</h1>
+    </header>
+    <header id="header2">
+        <button type="button" id="nova-tarefa">+Tarefa</button>
+        <button type="submit" id="cancelar">Cancelar</button>
+    </header>
+    <div>
+        <form id="form-nova-tarefa" style="display: none;">
+                <input type="text" id="input-tarefa" required placeholder="Tarefa: ">
+                <input type="date" id="input-data" required placeholder="Data: ">
+                <input type="time" id="input-hora" required placeholder="Horario: ">
+                <button type="submit" id="adicionar">+Adicionar</button>
+        </form>
+    </div>
+    <div id="lista-tarefas">
+        <ul id="tarefas">
+            
+        </ul>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./main.js"></script>
+
+</body>
 </html>
